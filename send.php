@@ -1,6 +1,6 @@
 <?php
 /**
- * Form handler for the Arcatrans website (quote, tracking, driver forms).
+ * Form handler for the Arcatrans website (quote and tracking forms).
  * Works on GoDaddy cPanel / Linux hosting with PHP mail().
  *
  * 1. Set RECIPIENT to the inbox that should receive submissions.
@@ -52,14 +52,6 @@ $forms = [
         'subject'  => 'Shipment status request',
         'required' => ['load_number', 'email'],
         'fields'   => ['load_number' => 'Load / PRO / BOL', 'email' => 'Email'],
-    ],
-    'driver' => [
-        'subject'  => 'New driver application',
-        'required' => ['name', 'phone'],
-        'fields'   => [
-            'name' => 'Name', 'phone' => 'Phone', 'email' => 'Email',
-            'experience' => 'CDL-A experience (years)', 'driver_type' => 'Type',
-        ],
     ],
 ];
 

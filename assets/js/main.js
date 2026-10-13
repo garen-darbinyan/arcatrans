@@ -105,11 +105,10 @@
     if (e.target.classList && e.target.classList.contains("is-invalid")) e.target.classList.remove("is-invalid");
   });
 
-  // ---- Form submission (quote, tracking, driver) ----
+  // ---- Form submission (quote, tracking) ----
   var messages = {
     quote: "Thanks! Your quote request was sent. We'll reply shortly.",
-    tracking: "Request received. Dispatch will email you the status shortly.",
-    driver: "Thanks for applying! Our recruiting team will call you soon."
+    tracking: "Request received. Dispatch will email you the status shortly."
   };
   setAll("form[data-form]", function (form) {
     form.addEventListener("submit", function (e) {

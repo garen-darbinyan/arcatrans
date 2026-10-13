@@ -44,6 +44,12 @@
   </div>
 
   <header class="header" id="top">
+    <div class="hiring-bar">
+      <div class="container hiring-bar__inner">
+        <span><b>Now hiring</b> CDL-A drivers<span class="hide-sm"> &amp; owner-operators</span></span>
+        <a class="hiring-bar__btn" href="https://script.google.com/a/macros/arcatrans.com/s/AKfycbzYi-0b8ZKOV9bcrTQONpXsOysY6obkVzF6EHvyRY8c6QRkuGOx3X_sLsiF-CVQxyQD/exec" target="_blank" rel="noopener">Apply now →</a>
+      </div>
+    </div>
     <div class="container header__inner">
       <a href="#top" class="logo" aria-label="Arcatrans home">
         <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 32 20 6l16 26h-8l-8-13-8 13z" fill="currentColor"/><path d="M14 32h12" stroke="#f5a524" stroke-width="4" stroke-linecap="round"/></svg>
@@ -54,7 +60,7 @@
         <a href="#industries">Industries</a>
         <a href="#how">How it works</a>
         <a href="#track">Track</a>
-        <a href="#careers">Drivers</a>
+        <a href="careers.html">Careers</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
         <a href="#quote" class="btn btn--accent nav__cta">Get a quote</a>
@@ -292,25 +298,12 @@
             <li>Dispatchers who actually answer</li>
           </ul>
         </div>
-        <form class="card form reveal" data-form="driver" novalidate>
-          <input type="hidden" name="form_type" value="driver">
-          <div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
-          <label>Full name *<input name="name" required autocomplete="name"></label>
-          <div class="form__row">
-            <label>Phone *<input type="tel" name="phone" required autocomplete="tel"></label>
-            <label>Email<input type="email" name="email" autocomplete="email"></label>
-          </div>
-          <div class="form__row">
-            <label>Years of CDL-A experience
-              <select name="experience"><option>Less than 1</option><option>1–2</option><option>3–5</option><option>5+</option></select>
-            </label>
-            <label>I am a
-              <select name="driver_type"><option>Company driver</option><option>Owner-operator</option></select>
-            </label>
-          </div>
-          <button class="btn btn--primary btn--block" type="submit">Apply now</button>
-          <p class="form__msg" role="status" aria-live="polite"></p>
-        </form>
+        <div class="card apply-card reveal">
+          <h3>Ready to drive with Arcatrans?</h3>
+          <p class="muted">The application takes about 5 minutes. Our recruiting team reviews every application and calls you back.</p>
+          <a class="btn btn--accent btn--lg btn--block" href="https://script.google.com/a/macros/arcatrans.com/s/AKfycbzYi-0b8ZKOV9bcrTQONpXsOysY6obkVzF6EHvyRY8c6QRkuGOx3X_sLsiF-CVQxyQD/exec" target="_blank" rel="noopener">Apply now</a>
+          <a class="btn btn--outline btn--block" href="careers.html">See pay, benefits &amp; requirements</a>
+        </div>
       </div>
     </section>
 
@@ -372,7 +365,7 @@
         <p class="small" data-cfg="authority">USDOT # ——— · MC # ———</p>
       </div>
       <nav class="footer__nav" aria-label="Footer">
-        <a href="#services">Services</a><a href="#quote">Get a quote</a><a href="#track">Track</a><a href="#careers">Drivers</a><a href="#contact">Contact</a><a href="privacy.html">Privacy</a>
+        <a href="#services">Services</a><a href="#quote">Get a quote</a><a href="#track">Track</a><a href="careers.html">Careers</a><a href="#contact">Contact</a><a href="privacy.html">Privacy</a>
       </nav>
     </div>
     <div class="container footer__legal small">© <span id="year"></span> Arcatrans. All rights reserved.</div>
